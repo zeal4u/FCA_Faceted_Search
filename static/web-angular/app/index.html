@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" ng-app="facetSearchApp">
+<head>
+    <meta charset="UTF-8">
+
+    <title>FCA Search Engine</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css"/>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/datatables.net/js/jquery.dataTables.js"></script>
+    <script src="bower_components/datatables.net-bs/js/dataTables.bootstrap.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="search-pane/search-pane.module.js"></script>
+    <script src="search-pane/search-pane.component.js"></script>
+
+</head>
+<body style="background-color: white">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header" >
+                <a class="navbar-brand" href="#/search">
+                    <storng>Formal Concept Analyse Facet Search</storng>
+                </a>
+                <!-- should let the record be right -->
+                <p class="navbar-text navbar-right"><a ng-href="#/record">History</a></p>
+            </div>
+        </div>
+    </nav>
+   <ui-view name="main"></ui-view>
+</body>
+
+<footer class="footer navbar-fixed-bottom" style="background-color: #dadada;height: 3%;">
+    <div class="container Absolute-Center">
+        <div class="col-md-2">
+            <a href="#/search">Main Page</a></div>
+        <div class="col-md-3 col-md-offset-5">
+            <address>
+                <div class="col-md-3 "><strong>Email:</strong><a
+                        href="mailto:jiangshizhi@yinsho.com">jiangshizhi@yinsho.com</a>
+                </div>
+            </address>
+        </div>
+    </div>
+</footer>
+<script> </script>
+
+
