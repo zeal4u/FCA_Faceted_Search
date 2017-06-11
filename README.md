@@ -11,7 +11,7 @@
     * bin/models.py 数据模型模块
     * bin/search_engine.py 搜索引擎模块
     * bin/web_backend.py 后台接口
-* static/ 前台
+* static/ 前台 需要预先使用bower下好所有需要的支持
 * data/ 已构造概念格数据为GML类型图文件 
 * tests/ 单元测试
 
