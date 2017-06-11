@@ -13,6 +13,7 @@
     * bin/web_backend.py 后台接口
 * static/ 前台 需要预先使用bower下好所有需要的支持
 * data/ 已构造概念格数据为GML类型图文件 
+    * data/init.sql 导入该文件以初始化数据库
 * tests/ 单元测试
 
 数据库初始化脚本尚未完成……
